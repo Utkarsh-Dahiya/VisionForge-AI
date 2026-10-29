@@ -1,0 +1,18 @@
+{
+  "total_images": 20,
+  "successful": 19,
+  "detected": 19,
+  "detection_recall": 0.95,
+  "ocr_backend": "EasyOCR",
+  "exact_match_accuracy": 0.4,
+  "exact_matches": 8,
+  "position_exact_match_accuracy": 0.45,
+  "position_exact_matches": 9,
+  "average_char_error_rate": 0.11121743753322699,
+  "average_char_accuracy": 0.888782562466773,
+  "average_processing_time_ms": 1567.478947368421,
+  "median_processing_time_ms": 806.6,
+  "average_ocr_time_ms": 814.1,
+  "median_ocr_time_ms": 715.7,
+  "skipped": []
+}

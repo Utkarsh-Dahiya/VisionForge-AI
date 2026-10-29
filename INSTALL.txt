@@ -1,0 +1,15 @@
+VISIONFORGE AI — VIDEO ANALYTICS UPGRADE
+
+1. Make a backup of your current mainn2.py and modules.py.
+2. Extract this ZIP into the VisionForge-AI project root, replacing those two files.
+3. Keep your existing core/analytics/event_engine.py, video_service.py, video_processor.py and all other project files.
+4. Activate your existing .venv and run: streamlit run mainn2.py
+
+Added to Video Intelligence:
+- Unique person track count
+- Person line-crossing counts in image-space up/down directions
+- Unique vehicle track count for car, truck, bus and motorcycle
+- Vehicle observations by class
+- Clear caveat that up/down is not automatically equivalent to entering/exiting
+
+Validation: both Python files passed py_compile. This environment does not contain your full project runtime, so run your existing test suite locally and test with a real video containing moving people/vehicles. This is not accident detection.

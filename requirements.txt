@@ -1,0 +1,10 @@
+streamlit
+ultralytics
+opencv-python
+pandas
+plotly
+numpy
+Pillow
+imageio-ffmpeg
+easyocr
+pytest
